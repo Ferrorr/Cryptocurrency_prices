@@ -50,7 +50,7 @@ while True:
     price, suma = 0.0, 0.0
     print("\n" * 2)
     # open a text file for storing our data
-    f = open("crypto_statsz.txt", "w")
+    f = open("crypto_statsz.txt", "a")
     f.write("-" * 40 + '\n')
     f.write("Last time checked: " + now.strftime("%H:%M:%S")+'\n')
     # finding out how much money we've made
